@@ -8,6 +8,7 @@ export default function Filter() {
   const value = useSelector(state => state.contacts.filter);
   const handleImput = e => {
     dispatch(contactsOperations.filter(e.target.value));
+    
   };
   return (
     <Label>

@@ -16,7 +16,6 @@ export const Header = styled.header`
   }
 
   @media (max-width: 320px) {
-    /* flex-direction: column; */
     align-items: flex-start;
     justify-content: center;
     height: auto;
@@ -29,7 +28,7 @@ export const Header = styled.header`
 
 export const Container = styled.div`
   opacity: 1;
-  max-width: 1300px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 16px;
 
@@ -37,7 +36,7 @@ export const Container = styled.div`
     max-width: 100%;
   }
 
-  @media (max-width: 420px) {
+  @media (max-width: 320px) {
     padding: 0 8px;
     max-width: 100%;
   }

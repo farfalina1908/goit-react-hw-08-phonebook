@@ -15,23 +15,19 @@ export const ListElement = styled.li`
 
 export const Button = styled.button`
   border-radius: 5px;
-  padding: 0px 10px;
+  padding: 7px 10px;
   cursor: pointer;
-  border: none;
-  background-color: #5062c7;
+  border: 1px solid #fff;
+  background-color: #4497a9;
   font-weight: 700;
 
   @media screen and (max-width: 320px) {
-    padding: 0px 5px;
+    padding: 5px 5px;
     font-size: 12px;
   }
 `;
 
 export const Paragraph = styled.p`
-  /* margin-bottom: 10px; */
-  /* display: inline-flexbox; */
-  /* margin-left: 15px; */
-
   @media screen and (max-width: 768px) {
     margin: 5px 0px;
   }

@@ -21,8 +21,8 @@ export const Button = styled.button`
   padding: 0px 10px;
   height: 45px;
   cursor: pointer;
-  border: none;
-  background-color: #5062c7;
+  border: 1px solid #fff;
+  background-color: #4497a9;
   font-weight: 700;
 
   &:hover {
@@ -37,7 +37,6 @@ export const Button = styled.button`
   }
 
   @media screen and (min-width: 321px) and (max-width: 768px) {
-    /* margin-top: 10px; */
     margin-left: 10px;
     height: 35px;
   }

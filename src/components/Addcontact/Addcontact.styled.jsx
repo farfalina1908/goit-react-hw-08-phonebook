@@ -2,29 +2,28 @@ import styled from 'styled-components';
 
 export const Button = styled.button`
   display: block;
-
   max-width: 100px;
-
   margin: 20px auto;
-
   margin-bottom: 10px;
   border-radius: 5px;
-  padding: 0px 10px;
+  padding: 7px 10px;
   cursor: pointer;
-  border: none;
-  background-color: #5062c7;
+  border: 1px solid #fff;
+  background-color: #4497a9;
   font-weight: 700;
 
   /* Styles for screen width 320px */
   @media screen and (max-width: 320px) {
     max-width: 80px;
     font-size: 14px;
+    padding: 5px 10px;
   }
 
   /* Styles for screen width 768px */
   @media screen and (min-width: 321px) and (max-width: 768px) {
     max-width: 120px;
-    font-size: 16px;
+    font-size: 14px;
+    padding: 5px 10px;
   }
 `;
 

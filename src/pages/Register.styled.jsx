@@ -5,14 +5,21 @@ export const Button = styled.button`
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
-  padding: 0px 10px;
+  padding: 7px 10px;
   cursor: pointer;
-  border: none;
-  background-color: #5062c7;
+  border: 1px solid #fff;
+  background-color: #4497a9;
   font-weight: 700;
 
   @media only screen and (max-width: 768px) {
-    width: 100%;
+    /* width: 100%; */
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  @media screen and (max-width: 320px) {
+    font-size: 12px;
+    padding: 5px 10px;
   }
 `;
 

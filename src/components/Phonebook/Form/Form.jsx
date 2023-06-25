@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-// import { useDispatch, useSelector } from 'react-redux';
 import { useAddContactMutation, useGetContactsQuery } from '../../../redux/api';
 import { nanoid } from '@reduxjs/toolkit';
-// import { addContact, getContacts } from '../../../redux/slicer';
 import Input from '../Input/Input';
 import Label from '../Label/Label';
 import css from './Form.module.css';
@@ -13,9 +11,6 @@ const Form = () => {
 
   const nameInputId = nanoid();
   const numberInputId = nanoid();
-
-  // const dispatch = useDispatch();
-  // const contacts = useSelector(getContacts);
 
   const { data: contacts } = useGetContactsQuery();
   const [addContact, { isLoading }] = useAddContactMutation();

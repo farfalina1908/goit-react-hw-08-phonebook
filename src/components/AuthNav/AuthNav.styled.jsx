@@ -11,7 +11,8 @@ export const Link = styled(NavLink)`
 
   &.active {
     color: white;
-    background-color: #5062c7;
+    border: 1px solid #fff;
+    background-color: #4497a9;
   }
 
   @media screen and (max-width: 768px) {
